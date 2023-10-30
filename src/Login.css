@@ -1,0 +1,59 @@
+body{
+    background-color: rgba(233, 223, 223, 0.549);
+ 
+}
+.login-container {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #0b0a00;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(9, 10, 1, 0.1);
+    background-color: rgba(255, 255, 255, 0.549);
+
+    /* Centering the container vertically */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 50vh; /* Set a minimum height to fill the viewport */
+}
+
+  .login-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  input {
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  .login-button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .login-button:hover {
+    background-color: #45a049;
+  }
+  
+  .signup-link {
+    margin-top: 15px;
+    font-size: 14px;
+  }
+  
